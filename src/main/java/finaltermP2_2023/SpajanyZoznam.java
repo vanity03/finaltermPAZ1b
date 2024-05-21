@@ -69,6 +69,10 @@ public class SpajanyZoznam {
         Uzol aktualny = prvy;
         int sucet = 0;
 
+        if (prvy == null) {
+            return;
+        }
+
         if (prvy.hodnota >= dlzka) {
             prvy = null;
             aktualny.dalsi = null;
@@ -94,13 +98,13 @@ public class SpajanyZoznam {
 
     public static void main(String[] args) {
         SpajanyZoznam s = new SpajanyZoznam();
-        s.pridajNaZaciatok(14);
-        s.pridajNaZaciatok(6);
-        s.pridajNaZaciatok(2);
-        s.pridajNaZaciatok(10);
-        s.pridajNaZaciatok(5);
-        s.pridajNaZaciatok(5);
-        s.pridajNaZaciatok(8);
+//        s.pridajNaZaciatok(14);
+//        s.pridajNaZaciatok(6);
+//        s.pridajNaZaciatok(2);
+//        s.pridajNaZaciatok(10);
+//        s.pridajNaZaciatok(5);
+//        s.pridajNaZaciatok(5);
+//        s.pridajNaZaciatok(8);
 
         System.out.println(s.sucet());
         s.orezPodDlzku(142);
