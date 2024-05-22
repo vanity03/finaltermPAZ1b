@@ -22,7 +22,7 @@ public class ViazaneZivnosti {
 
     public ViazaneZivnosti() {
 
-        File f = new File("C:\\Users\\matus\\IdeaProjects\\finaltermPAZ1b\\src\\main\\java\\finaltermP1_2019\\file.txt");
+        File f = new File("src/main/java/finaltermP1_2019/file.txt");
 
         try (Scanner sc = new Scanner(f)) {
             n = sc.nextInt();
