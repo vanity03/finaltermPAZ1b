@@ -16,7 +16,7 @@ public class SpajanyZoznam {
     /**
      * Referencia na prvy uzol spajaneho zoznamu
      */
-    private Uzol prvy = null;
+    public Uzol prvy = null;
 
     /**
      * Prida novu hodnotu na zaciatok spajaneho zoznamu
